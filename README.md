@@ -1,21 +1,5 @@
 # project_angry_birds
 
-Contents
---------
-1. Motivation................................................1
-2. Brief description of gameplay.............................1
-  • Main Mechanism...........................................1
-  • Projectile prediction....................................1
-  • Check Collision..........................................2
-  • Sound....................................................2
-  • Leaderboard update.......................................2
-  • Regeneration of obstacles................................2
-  • Game over and new game...................................2
-3. Algorithm used in gameplay................................3
-4. Challenges................................................4
-5. Attachments...............................................4
-
-
 1. Motivation
 -------------
 Building the popular Angry Birds video game with OpenGL igraphics GUI using C Programming Language.
