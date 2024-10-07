@@ -1,11 +1,11 @@
 # project_angry_birds
 
-1. Motivation
+Motivation
 -------------
 Building the popular Angry Birds video game with OpenGL igraphics GUI using C Programming Language.
 
 
-2. Brief Description of Gameplay
+Brief Description of Gameplay
 --------------------------------
 • Main Mechanism
 
@@ -37,7 +37,7 @@ When all the pigs die then the game is over display show a button to play a new 
 To detect the collision, coordinates of bird are compared frequently after launching the bird. When the coordinates match there will be a collision and then set a condition to remove the image of that obstacle.
 
 
-3. Algorithm used in gameplay
+Algorithm used in gameplay
 -----------------------------
 The gameplay mainly uses projectile motion to launch the birds and hit obstacles. The velocity and angle are calculated with functions.
 The algorithm used in gameplay is shown in the following flowchart.
@@ -45,7 +45,7 @@ Calculate angle,velocrty then call projectile.
 Check coordinate with obstacle to check collision,set bird initial.
 
 
-4. Challenges
+Challenges
 -------------
 • To make the projectile motion there is a need to set a timer that calls projectile function at a certain interval of time. In igraphics the iSetTimer function can be called maximum of 10 times after the game built.
 • The yellow bird’s speed is increased when clicking in the air. But the coordinates change with large distance. That can make the collision hard to detect.
@@ -53,7 +53,8 @@ Check coordinate with obstacle to check collision,set bird initial.
 • While switching from one menu to another, gameState variable is used. But when two or more coordinates are the same then the mouse click is true for all conditions and menus may be skipped. For that we should use else if condition.
 
 
-5. Attachments
+Attachments
 --------------
 This is the you tube link for video demonstration of Angry Birds game:
+
 https://www.youtube.com/watch?v=Ola-ENVe5Aw
